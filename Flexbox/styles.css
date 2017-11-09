@@ -1,0 +1,39 @@
+.cont
+{
+  display: flex;
+  height: 1000px;
+  background-color: red;
+
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.rad
+{
+  display: flex;
+  height: 100px;
+  /*margin: auto;*/
+
+  border-style: solid;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.gul {
+  background-color: yellow;
+
+}
+
+.gron {
+
+    background-color: green;
+}
+
+
+
+.block
+{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
