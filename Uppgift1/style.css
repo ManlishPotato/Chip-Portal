@@ -1,0 +1,37 @@
+body
+{
+  background-color: red;
+}
+
+.TopBar /*Top menu bar*/
+{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-radius: 5px;
+  margin: auto;
+
+  width: 580px;
+  height: 44px;
+}
+
+.Menu /*Menu object*/
+{
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  border-radius: 5px;
+  margin-right: 5px;
+  border-style: solid;
+  font-size: 22px;
+  padding: 5px;
+  padding-left: 20px;
+
+  width: 80px;
+  height: 28px;
+}
+
+.Option /*Options in Menu*/
+{
+
+}
