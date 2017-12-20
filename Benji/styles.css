@@ -1,0 +1,72 @@
+ .Heading
+ {
+   display: flex;
+   font-size: 50px;
+ }
+
+.Background 
+{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    border-radius: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    height: 1000px;    
+}
+
+.TopBar
+{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    border-radius: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    height: 46px;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    padding: 10px;
+    font-size: 22px;
+    
+    
+}
+
+.Option 
+{
+    display: none;   
+}
+
+.Menu:hover .Option 
+{
+    display: block;
+    background-color: yellow;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 7px;
+}
+
+.CssText
+{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+    width: 500px;
+    height: 500px;
+}
+
+
