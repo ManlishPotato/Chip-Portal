@@ -1,0 +1,14 @@
+body 
+{
+    background-color: #e9e0e2
+}
+
+MainC
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+    width: 500px;
+    height: 500px;
+}
