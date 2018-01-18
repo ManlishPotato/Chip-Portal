@@ -1,0 +1,28 @@
+body
+{
+    /*overflow: hidden;*/
+}
+
+.Heading
+{
+  display: flex;
+  font-size: 50px;
+}
+
+#Picture
+{
+  width: 100%;
+  height: auto;
+}
+
+.PicturCont
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  position:absolute;
+
+  height: 100%;
+  width: 100%;
+}
