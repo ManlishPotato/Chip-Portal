@@ -1,21 +1,24 @@
-body 
+body
 {
-    /*overflow: hidden;*/
+    overflow: hidden;
+    background-color: lightblue;
 }
 
-.PicContainer 
+.PicContainer
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
-    position: absolute;
 
+    position: absolute;
+    top:0px;
+    left:0px;
     height: 100%;
     width: 100%;
 }
 
-#Picture {
+#Picture
+{
     width: 100%;
     height: auto;
 }
