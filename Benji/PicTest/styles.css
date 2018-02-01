@@ -1,28 +1,43 @@
 body
 {
-    /*overflow: hidden;*/
-}
-
-.Heading
-{
-  display: flex;
-  font-size: 50px;
-}
-
-#Picture
-{
-  width: 100%;
-  height: auto;
+    overflow: hidden;
+    background-color: lightblue;
 }
 
 .PicturCont
 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
-  position:absolute;
+
+  position: absolute;
+
+  top: 0px;
+  left: 0px;
 
   height: 100%;
   width: 100%;
+
+}
+
+#Picture
+{
+position: absolute;
+
+z-index: 2;
+
+}
+
+#UnderPicture
+{
+position: absolute;
+
+z-index: 1;
+}
+
+img
+{
+  width: 100%;
+  height: auto;
 }
