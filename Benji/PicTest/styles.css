@@ -12,7 +12,6 @@ body
   align-items: center;
 
   position: absolute;
-
   top: 0px;
   left: 0px;
 
@@ -24,7 +23,6 @@ body
 #Picture
 {
 position: absolute;
-
 z-index: 2;
 
 }
@@ -32,7 +30,6 @@ z-index: 2;
 #UnderPicture
 {
 position: absolute;
-
 z-index: 1;
 }
 
