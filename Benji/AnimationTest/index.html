@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <title>Animation Test</title>
@@ -19,11 +19,18 @@
             </div>
         </div>
 
+        <div id="box">
+            hover me
+        </div>
+
         <script>
             button.addEventListener("click", function ()
             {
-                hoverCube.style.animation = "buttonAnim 3s forwards"
+                hoverCube.style.animation = "buttonAnim 1s forwards"
             });
+
+            var myBox = document.getElementById('box');
+            myBox.addEventListener('AnimationEnd', function (event) { myBox.style.display = 'none'; }, false);
         </script>
     </body>
 </html>

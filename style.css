@@ -1,4 +1,5 @@
-body {
+body 
+{
     overflow: hidden;
     background-color: #ffa400;
 }
@@ -53,7 +54,7 @@ img
     width: 100%;
 }
 
-.button
+#button
 {
     background-color: rgba(255, 164, 0, 1);  /*#ffa400;*/
     border: none;
@@ -66,13 +67,28 @@ img
     width:max-content;
     padding:  10px;
 
+    animation-name: buttonAnim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .textBar
 {
   font-size: 30px;
   font-family: sans-serif;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 
   color: white;
+}
+
+@keyframes buttonAnim
+{
+    from
+    {
+        display: inline-block;
+    }
+    to
+    {
+        display: none;
+    }
 }
