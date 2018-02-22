@@ -13,20 +13,34 @@
             <div id="BackgroundPicture"><img src="Background.jpg" alt="Background picture"></div>
             <div id="Picture"><img src="Klocka_Low.jpg" alt="Golden Clock"></div>
 
-            <div class="MiddleBar">
+            <div id="MiddleBar">
                 <div class="textBar">
                   Welcome to the Chip-Portal hello world!
                 </div>
 
-                <button id="button">Enter</button>
+                <input id="button" type="button" value="Enter"  onclick="goToWeb()">
+            </div>
+            <div class="webCont">                          
+              <div id="redCube">
+                Hello World
+              </div>
+
+              <div id="redCube">
+                Hello World
+              </div>
+
+              <div id="redCube">
+                Hello World
+              </div>
             </div>
         </div>
 
         <script>
-            button.addEventListener("click", function ()
+            function goToWeb()
             {
-                
-            });
+              button.style.animation = "buttonAnim 1s forwards";
+              MiddleBar.style.animation = "middleBarAnim 1s forwards";
+            }
         </script>
     </body>
 </html>
