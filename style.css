@@ -1,7 +1,10 @@
 body
 {
     overflow: hidden;
-    background-color: #ffa400;
+    background:url(Background.jpg);
+    background-size:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .PicCont
@@ -19,22 +22,14 @@ body
     width: 100%;
 }
 
-#Picture
+#MiddlePicture
 {
-    position: absolute;
-    z-index: 2;
-}
-
-#BackgroundPicture
-{
-    position: absolute;
-    z-index: 1;
-}
-
-img
-{
+    position:absolute;
+    max-height:3534px;
     width: 100%;
-    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #MiddleBar
@@ -86,8 +81,8 @@ img
 {
   display: flex;
   z-index: 3;
-  justify-content: space-evenly;
-  align-items: center;  
+  justify-content: space-around;
+  align-items: center;
   flex-direction: row;
 
   height: 0%;
