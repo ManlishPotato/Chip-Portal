@@ -32,6 +32,12 @@ body
     transform: translate(-50%, -50%);
 }
 
+#IconPicture
+{
+  height: 100%;
+  width: 100%;
+}
+
 #MiddleBar
 {
     display: flex;
@@ -109,7 +115,7 @@ body
     font-size: 16px;
     cursor:pointer;
     width:70px;
-    height: 40px;
+    height: 22%;
     padding:  0px;
 }
 
@@ -143,7 +149,7 @@ body
   }
 }
 
-@keyframes webAnim
+@keyframes webContAnim
 {
     from
     {
