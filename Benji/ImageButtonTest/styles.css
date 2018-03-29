@@ -1,0 +1,47 @@
+#cont
+{
+  position: absolute;
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+
+  width: 750px;
+  height: 500px;
+}
+
+#imageCont
+{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+#image
+{
+  height: 100%;
+  width: 100%;
+}
+
+#blue
+{
+  position: absolute;
+  display: flex;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+#yellow
+{
+  position: absolute;
+  display: flex;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}

@@ -117,6 +117,7 @@ body
     width:70px;
     height: 22%;
     padding:  0px;
+    z-index: 1;
 }
 
 @keyframes buttonAnim
