@@ -84,8 +84,7 @@ body
 }
 
 #webCont
-{
-  background-color: red;
+{  
   display: flex;
   z-index: 3;
   justify-content: space-around;
