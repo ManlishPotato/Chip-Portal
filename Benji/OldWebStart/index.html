@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="style.css?<?php echo time(); ?>" />
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="PicCont">
+            <img src="Klocka_Low.jpg" id="MiddlePicture" alt="Golden Clock">
+
+            <div id="MiddleBar">
+                <div class="textBar">
+                  Welcome to the Chip-Portal!
+                </div>
+
+                <input id="button" type="button" value="Enter" onclick="goToWeb()">
+            </div>
+            <div id="webCont">
+                <div id="Cube">
+                    <input id="webButton" type="button" value="Benji" onclick="BenjiWeb()">
+
+                    <img src="ClockThumb.jpg" id="IconPicture" alt="Benji Thumbnail">
+                </div>
+
+                <div id="Cube">
+                    <input id="webButton" type="button" value="Samuel" onclick="SamuelWeb()">
+
+                    <img src="McdonaldsThumb.png" id="IconPicture" alt="Samuel Thumbnail">
+                </div>
+
+                <div id="Cube">
+                    <input id="webButton" type="button" value="Natalie" onclick="NatalieWeb()">
+
+                    <img src="NatalieThumb.jpg" id="IconPicture" alt="Natalie Thumbnail">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function goToWeb()
+            {
+              button.style.animation = "buttonAnim 1s forwards";
+              MiddleBar.style.animation = "middleBarAnim 1s forwards";
+              webCont.style.animation = "webContAnim 1s forwards";
+            }
+
+            function BenjiWeb()
+            {
+              document.location.href = "/~chip/Benji/";
+            }
+
+            function SamuelWeb()
+            {
+              document.location.href = "/~chip/Samuel/";
+            }
+
+            function NatalieWeb()
+            {
+              document.location.href = "/~chip/Benji/";
+            }
+        </script>
+    </body>
+</html>

@@ -10,9 +10,34 @@ body
 #mitten
 {
   position:absolute;
-  max-height:848px;
+  max-height:3534px;
   width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#MiddleBar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0,0,0,0.8); /*#ffa400*/
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+    height: 15%;
+    width: 100%;
+}
+
+#MiddleBarBlack
+{
+  display: flex;
+  background-color: red;
+  height: 15%;
+  width: 100%;
+  z-index: 3;
+  position: relative;
 }

@@ -1,0 +1,163 @@
+body
+{
+    overflow: hidden;
+    background:url(Background.jpg);
+    background-size:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.PicCont
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top:0px;
+    left:0px;
+
+    height: 100%;
+    width: 100%;
+}
+
+#MiddlePicture
+{
+    position:absolute;
+    max-height:3534px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#IconPicture
+{
+  height: 100%;
+  width: 100%;
+}
+
+#MiddleBar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(0,0,0,0.8); /*#ffa400*/
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 3px;
+    z-index: 3;
+
+    height: 15%;
+    width: 100%;
+}
+
+#button
+{
+    background-color: rgba(255, 164, 0, 1);  /*#ffa400;*/
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    width:65px;
+    height: 40px;
+    padding:  10px;
+}
+
+#Cube
+{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 20%;
+}
+
+#webCont
+{  
+  display: flex;
+  z-index: 3;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  height: 0%;
+  width: 100%;
+}
+
+.textBar
+{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+
+  color: white;
+}
+
+#webButton
+{
+    background-color: rgba(255, 164, 0, 1);  /*#ffa400;*/
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    width:70px;
+    height: 22%;
+    padding:  0px;
+    z-index: 1;
+}
+
+@keyframes buttonAnim
+{
+    from
+    {
+      font-size: 16px;
+      height: 40px;
+      padding: 10px;
+    }
+    to
+    {
+      font-size: 0px;
+      height: 0px;
+      padding: 0px;
+    }
+}
+
+@keyframes middleBarAnim
+{
+  from
+  {
+    height: 15%;
+    top: 0px;
+  }
+  to
+  {
+    height: 7%;
+    top: -50px;
+  }
+}
+
+@keyframes webContAnim
+{
+    from
+    {
+        height: 0%;
+    }
+    to
+    {
+        height: 20%;
+    }
+}
