@@ -17,11 +17,11 @@ body
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: yellow;
+  padding-bottom: 44.175%;
 
   z-index: 5;
 
-  height: 50%;
+  height: 0%;
   width: 100%;
 }
 
@@ -30,6 +30,9 @@ body
   position:absolute;
   max-height:3534px;
   width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -39,14 +42,41 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
     background-color: rgba(0,0,0,0.8); /*#ffa400*/
     border-top: 3px solid black;
     border-bottom: 3px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 3;
 
     height: 30%;
     width: 100%;
+}
+
+.textBar
+{
+  font-size: 100%;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+
+  color: white;
+}
+
+#button
+{
+    background-color: rgba(255, 164, 0, 1);  /*#ffa400;*/
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    width:65px;
+    height: 40px;
+    padding:  10px;
 }
 
 #appCont
