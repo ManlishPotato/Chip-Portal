@@ -1,0 +1,19 @@
+.Cont
+{
+  display: flex;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 400px;
+}
+
+.Child
+{
+  display: flex;
+  background-color: yellow;
+
+  width: 50%;
+  height: 50%;
+}
