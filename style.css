@@ -25,6 +25,16 @@ body
   width: 100%;
 }
 
+.textBar
+{
+  font-size: calc(100% + 3vw);
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  position: absolute;
+
+  color: white;
+}
+
 #MiddlePicture
 {
   position:absolute;
@@ -34,7 +44,6 @@ body
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 #MiddleBar
 {
@@ -78,38 +87,20 @@ body
   background-color: rgba(0,0,0,1);
 }
 
-.textBar
-{
-  font-size: calc(100% + 3vw);
-  font-family: sans-serif;
-  margin-bottom: 20px;
-  position: absolute;
-
-  color: white;
-}
-
-#button
-{
-    background-color: rgba(255, 164, 0, 1);  /*#ffa400;*/
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size:calc(100% + 1.5vw);
-    cursor:pointer;
-    width: 10%;
-    height: 37%;
-    padding:  10px;
-}
-
-#appCont
+#EnterPicture
 {
   display: flex;
-
-  background-color: red;
-  z-index: 3;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.3s;
+  padding-bottom: 45.537%;
   width: 100%;
-  height: 20%;
+}
+
+#MiddleWipe:hover #EnterPicture
+{
+  opacity: 1;
 }
