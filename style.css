@@ -52,8 +52,7 @@ body
     justify-content: center;
     align-items: center;
     position: absolute;
-  /*  background-color: rgba(0,0,0,0.8);*/ /*#ffa400*/
-  background-color: blue;
+    background-color: rgba(0,0,0,0.8); /*#ffa400*/
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     top: 50%;
@@ -69,20 +68,13 @@ body
 {
   display: flex;
   flex-direction: column;
-  justify-content:flex-end;
-
-/*  position: absolute; */
+  justify-content: center;
+  align-items: center;
   background-color: rgba(0,0,0,0);
-/*  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   z-index: 4;
-  transition: 0.3;
-/*
-  height: 100%;
-  width: 100%;
-  */
-background-color:  green;
+
+
+  height: 100%
 }
 
 #MiddleWipe:hover
@@ -90,18 +82,18 @@ background-color:  green;
   background-color: rgba(0,0,0,1);
 }
 
+#MiddleWipe:hover #EnterPicture
+{
+  opacity: 1;
+}
+
 #EnterPicture
 {
   display: flex;
-  position: relative;
-  background-color: red;
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
   opacity: 0;
-  transition: 0.3s;
-  padding-bottom: 45.537%;
-  width: 20%;
+
+  height: auto;
+  width: 25%;
 }
 
 #EnterPicture:hover
