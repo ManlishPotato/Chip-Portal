@@ -12,14 +12,10 @@ body
   display: flex;
   flex-direction: column;
   position: absolute;
-  justify-content: center;
-  align-items: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding-bottom: 44.175%;
-
-  z-index: 5;
 
   height: 0%;
   width: 100%;
@@ -32,6 +28,23 @@ body
 
   color: white;
 }
+
+.EnterText
+{
+  font-size: calc(100% + 4vw);
+  font-family: 'Raleway', sans-serif;
+
+  color: #ffa400;
+}
+
+.SmallText
+{
+  font-size: calc(100% + 1vw);
+  font-family: sans-serif;
+
+  color: white;
+}
+
 
 #MiddlePicture
 {
@@ -82,20 +95,4 @@ body
 #MiddleWipe:hover
 {
   opacity: 1;
-}
-
-.EnterText
-{
-  font-size: calc(100% + 4vw);
-  font-family: 'Raleway', sans-serif;
-
-  color: #ffa400;
-}
-
-.SmallText
-{
-  font-size: calc(100% + 1vw);
-  font-family: sans-serif;
-
-  color: white;
 }
