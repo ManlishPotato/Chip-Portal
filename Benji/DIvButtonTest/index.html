@@ -6,10 +6,14 @@
         <meta charset="utf-8">
     </head>
     <body>
-      <div class="parent">
+      <div id="parent" onclick="myFunc()">
         Hello Human
       </div>
         <script>
+          function myFunc()
+          {
+            document.getElementById("parent").innerHTML = "YOU CLICKED ME!";
+          }
         </script>
     </body>
 </html>
